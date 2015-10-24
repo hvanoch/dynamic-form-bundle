@@ -1,5 +1,5 @@
 <?php
-namespace DynamicFormBundle\Transformer;
+namespace Hvanoch\Bundle\DynamicFormBundle\Transformer;
 
 use Symfony\Component\Form\DataTransformerInterface;
 use Symfony\Component\Form\Exception\TransformationFailedException;

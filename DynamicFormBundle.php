@@ -1,6 +1,6 @@
 <?php
 
-namespace DynamicFormBundle;
+namespace Hvanoch\Bundle\DynamicFormBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace DynamicFormBundle\Form;
+namespace Hvanoch\Bundle\DynamicFormBundle\Form;
 
 use Doctrine\Common\Persistence\ObjectManager;
-use DynamicFormBundle\Transformer\EntityToIdTransformer;
-use DynamicFormBundle\Transformer\EntityToLabelTransformer;
+use Hvanoch\Bundle\DynamicFormBundle\Transformer\EntityToIdTransformer;
+use Hvanoch\Bundle\DynamicFormBundle\Transformer\EntityToLabelTransformer;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Form\FormInterface;
