@@ -1,0 +1,13 @@
+{% block dynamic_entity_widget %}
+    <div class="input-group">
+        {%- set type = type|default('hidden') -%}
+        {{- block('form_widget_simple') -}}
+        <div class="form-control" disabled="disabled" id="{{ id ~ '_label' }}">{{ entity_label }}</div>
+        <a class="input-group-addon btn btn-primary btn-dynamic-entity btn-dynamic-entity-list" href="#" role="button" title="Lijst"><i
+                    class="glyphicon glyphicon-list"></i></a>
+        <a class="input-group-addon btn btn-success btn-dynamic-entity btn-dynamic-entity-add" href="#" role="button" title="Nieuw"><i
+                    class="glyphicon glyphicon-plus-sign"></i></a>
+        <a class="input-group-addon btn btn-danger btn-dynamic-entity btn-dynamic-entity-delete" href="#" role="button" title="Verwijder"><i
+                    class="glyphicon glyphicon-trash"></i></a>
+    </div>
+{% endblock %}
