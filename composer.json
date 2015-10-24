@@ -16,7 +16,7 @@
   },
 
   "autoload": {
-    "psr-4": { "Hvanoch\\DynamicFormBundle\\": "" }
+    "psr-4": { "Hvanoch\\Bundle\\DynamicFormBundle\\": "" }
   },
 
   "extra": {
